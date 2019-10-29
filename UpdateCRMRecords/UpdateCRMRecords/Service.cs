@@ -36,11 +36,13 @@ namespace UpdateCRMRecords
         {
             get { return _controlID; }
         }
+
         private Service(Guid controlID)
         {
-            
-            _controlID = controlID;
 
+            _controlID = controlID;
+            _organizationService = this.Connectwithcreds();
+            _organizationwebProxyClient = this.GetDynamicsSvc();
         }
         public static Service GetService()
         {
@@ -94,7 +96,7 @@ namespace UpdateCRMRecords
             return svc;
         }
 
-        public void Connection()
+        public IOrganizationService Connectwithcreds()
         {
             ClientCredentials clntCredentials = new ClientCredentials();
             clntCredentials.UserName.UserName = "";
@@ -102,15 +104,8 @@ namespace UpdateCRMRecords
             ServicePointManager.ServerCertificateValidationCallback = delegate (object s, X509Certificate certificate, X509Chain chain, SslPolicyErrors sslPolicyErrors) { return true; };
             //Security Protocol as TLS12
             ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
-            //clntCredentials.Windows.ClientCredential = new System.Net.NetworkCredential("", "", "");
-            //using (OrganizationServiceProxy proxy = new OrganizationServiceProxy(new Uri(""), null, clntCredentials, null))
-            //{
-            //    //proxy.ServiceConfiguration.CurrentServiceEndpoint.EndpointBehaviors.Add(new ProxyTypesBehavior());
-            //    proxy.EnableProxyTypes();
-            //    var xrmOrgService= (IOrganizationService)proxy;
-            //};
             OrganizationServiceProxy orgService = new OrganizationServiceProxy(new Uri("https://uam.api.crm.dynamics.com/XRMServices/2011/Organization.svc"), null, clntCredentials, null);
-            _organizationService = (IOrganizationService)orgService;
+            return (IOrganizationService)orgService;
 
         }
 
