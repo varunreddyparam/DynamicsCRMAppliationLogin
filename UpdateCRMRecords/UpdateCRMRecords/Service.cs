@@ -97,13 +97,13 @@ namespace UpdateCRMRecords
         public void Connection()
         {
             ClientCredentials clntCredentials = new ClientCredentials();
-            clntCredentials.UserName.UserName = "uambld@microsoft.com";
-            clntCredentials.UserName.Password = "C)V_H.JNYa'#9br!";
+            clntCredentials.UserName.UserName = "";
+            clntCredentials.UserName.Password = "";
             ServicePointManager.ServerCertificateValidationCallback = delegate (object s, X509Certificate certificate, X509Chain chain, SslPolicyErrors sslPolicyErrors) { return true; };
             //Security Protocol as TLS12
             ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
-            //clntCredentials.Windows.ClientCredential = new System.Net.NetworkCredential("uambld", "C)V_H.JNYa'#9br!", "microsoft");
-            //using (OrganizationServiceProxy proxy = new OrganizationServiceProxy(new Uri("https://uam.api.crm.dynamics.com/XRMServices/2011/Organization.svc"), null, clntCredentials, null))
+            //clntCredentials.Windows.ClientCredential = new System.Net.NetworkCredential("", "", "");
+            //using (OrganizationServiceProxy proxy = new OrganizationServiceProxy(new Uri(""), null, clntCredentials, null))
             //{
             //    //proxy.ServiceConfiguration.CurrentServiceEndpoint.EndpointBehaviors.Add(new ProxyTypesBehavior());
             //    proxy.EnableProxyTypes();
@@ -111,6 +111,7 @@ namespace UpdateCRMRecords
             //};
             OrganizationServiceProxy orgService = new OrganizationServiceProxy(new Uri("https://uam.api.crm.dynamics.com/XRMServices/2011/Organization.svc"), null, clntCredentials, null);
             _organizationService = (IOrganizationService)orgService;
+
         }
 
     }
