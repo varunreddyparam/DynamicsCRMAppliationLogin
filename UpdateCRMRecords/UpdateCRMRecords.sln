@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.902
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UpdateCRMRecords", "UpdateCRMRecords\UpdateCRMRecords.csproj", "{4C4617AA-FD6B-48AA-B6F4-25D64571636E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrudOperations", "CrudOperations\CrudOperations.csproj", "{75FBA188-C0B0-477E-8B7A-72B65420E81B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{4C4617AA-FD6B-48AA-B6F4-25D64571636E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C4617AA-FD6B-48AA-B6F4-25D64571636E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C4617AA-FD6B-48AA-B6F4-25D64571636E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75FBA188-C0B0-477E-8B7A-72B65420E81B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75FBA188-C0B0-477E-8B7A-72B65420E81B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75FBA188-C0B0-477E-8B7A-72B65420E81B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75FBA188-C0B0-477E-8B7A-72B65420E81B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,15 @@
+C:\Users\lenovo\Documents\GitHub\DynamicsCRMAppliationLogin\UpdateCRMRecords\CrudOperations\bin\Debug\CrudOperations.exe.config
+C:\Users\lenovo\Documents\GitHub\DynamicsCRMAppliationLogin\UpdateCRMRecords\CrudOperations\bin\Debug\CrudOperations.exe
+C:\Users\lenovo\Documents\GitHub\DynamicsCRMAppliationLogin\UpdateCRMRecords\CrudOperations\bin\Debug\CrudOperations.pdb
+C:\Users\lenovo\Documents\GitHub\DynamicsCRMAppliationLogin\UpdateCRMRecords\CrudOperations\obj\Debug\CrudOperations.csprojAssemblyReference.cache
+C:\Users\lenovo\Documents\GitHub\DynamicsCRMAppliationLogin\UpdateCRMRecords\CrudOperations\obj\Debug\MainWindow.g.cs
+C:\Users\lenovo\Documents\GitHub\DynamicsCRMAppliationLogin\UpdateCRMRecords\CrudOperations\obj\Debug\App.g.cs
+C:\Users\lenovo\Documents\GitHub\DynamicsCRMAppliationLogin\UpdateCRMRecords\CrudOperations\obj\Debug\CrudOperations_MarkupCompile.cache
+C:\Users\lenovo\Documents\GitHub\DynamicsCRMAppliationLogin\UpdateCRMRecords\CrudOperations\obj\Debug\CrudOperations_MarkupCompile.lref
+C:\Users\lenovo\Documents\GitHub\DynamicsCRMAppliationLogin\UpdateCRMRecords\CrudOperations\obj\Debug\MainWindow.baml
+C:\Users\lenovo\Documents\GitHub\DynamicsCRMAppliationLogin\UpdateCRMRecords\CrudOperations\obj\Debug\CrudOperations.g.resources
+C:\Users\lenovo\Documents\GitHub\DynamicsCRMAppliationLogin\UpdateCRMRecords\CrudOperations\obj\Debug\CrudOperations.Properties.Resources.resources
+C:\Users\lenovo\Documents\GitHub\DynamicsCRMAppliationLogin\UpdateCRMRecords\CrudOperations\obj\Debug\CrudOperations.csproj.GenerateResource.cache
+C:\Users\lenovo\Documents\GitHub\DynamicsCRMAppliationLogin\UpdateCRMRecords\CrudOperations\obj\Debug\CrudOperations.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Documents\GitHub\DynamicsCRMAppliationLogin\UpdateCRMRecords\CrudOperations\obj\Debug\CrudOperations.exe
+C:\Users\lenovo\Documents\GitHub\DynamicsCRMAppliationLogin\UpdateCRMRecords\CrudOperations\obj\Debug\CrudOperations.pdb

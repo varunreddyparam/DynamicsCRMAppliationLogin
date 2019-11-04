@@ -1,0 +1,17 @@
+C:\Users\lenovo\Documents\GitHub\DynamicsCRMAppliationLogin\UpdateCRMRecords\CrudOperations\bin\Release\CrudOperations.exe.config
+C:\Users\lenovo\Documents\GitHub\DynamicsCRMAppliationLogin\UpdateCRMRecords\CrudOperations\bin\Release\CrudOperations.exe
+C:\Users\lenovo\Documents\GitHub\DynamicsCRMAppliationLogin\UpdateCRMRecords\CrudOperations\bin\Release\CrudOperations.pdb
+C:\Users\lenovo\Documents\GitHub\DynamicsCRMAppliationLogin\UpdateCRMRecords\CrudOperations\obj\Release\CrudOperations.csprojAssemblyReference.cache
+C:\Users\lenovo\Documents\GitHub\DynamicsCRMAppliationLogin\UpdateCRMRecords\CrudOperations\obj\Release\LoginControl.g.cs
+C:\Users\lenovo\Documents\GitHub\DynamicsCRMAppliationLogin\UpdateCRMRecords\CrudOperations\obj\Release\MainWindow.g.cs
+C:\Users\lenovo\Documents\GitHub\DynamicsCRMAppliationLogin\UpdateCRMRecords\CrudOperations\obj\Release\App.g.cs
+C:\Users\lenovo\Documents\GitHub\DynamicsCRMAppliationLogin\UpdateCRMRecords\CrudOperations\obj\Release\CrudOperations_MarkupCompile.cache
+C:\Users\lenovo\Documents\GitHub\DynamicsCRMAppliationLogin\UpdateCRMRecords\CrudOperations\obj\Release\CrudOperations_MarkupCompile.lref
+C:\Users\lenovo\Documents\GitHub\DynamicsCRMAppliationLogin\UpdateCRMRecords\CrudOperations\obj\Release\MainWindow.baml
+C:\Users\lenovo\Documents\GitHub\DynamicsCRMAppliationLogin\UpdateCRMRecords\CrudOperations\obj\Release\LoginControl.baml
+C:\Users\lenovo\Documents\GitHub\DynamicsCRMAppliationLogin\UpdateCRMRecords\CrudOperations\obj\Release\CrudOperations.g.resources
+C:\Users\lenovo\Documents\GitHub\DynamicsCRMAppliationLogin\UpdateCRMRecords\CrudOperations\obj\Release\CrudOperations.Properties.Resources.resources
+C:\Users\lenovo\Documents\GitHub\DynamicsCRMAppliationLogin\UpdateCRMRecords\CrudOperations\obj\Release\CrudOperations.csproj.GenerateResource.cache
+C:\Users\lenovo\Documents\GitHub\DynamicsCRMAppliationLogin\UpdateCRMRecords\CrudOperations\obj\Release\CrudOperations.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Documents\GitHub\DynamicsCRMAppliationLogin\UpdateCRMRecords\CrudOperations\obj\Release\CrudOperations.exe
+C:\Users\lenovo\Documents\GitHub\DynamicsCRMAppliationLogin\UpdateCRMRecords\CrudOperations\obj\Release\CrudOperations.pdb

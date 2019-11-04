@@ -37,14 +37,14 @@ namespace UpdateCRMRecords
             get { return _controlID; }
         }
 
-        private Service(Guid controlID)
+        private Service(Guid controlID, string URL, string userName,string password)
         {
 
             _controlID = controlID;
-            _organizationService = this.Connectwithcreds();
+            _organizationService = this.Connectwithcreds(URL, userName, password);
             _organizationwebProxyClient = this.GetDynamicsSvc();
         }
-        public static Service GetService()
+        public static Service GetService(string URL, string userName, string password)
         {
             try
             {
@@ -53,7 +53,7 @@ namespace UpdateCRMRecords
                     lock (_lockObject)
                     {
                         if (_serviceInstance == null)
-                            _serviceInstance = new Service(Guid.NewGuid());
+                            _serviceInstance = new Service(Guid.NewGuid(), URL, userName, password);
                     }
                 }
                 return _serviceInstance;
@@ -96,15 +96,16 @@ namespace UpdateCRMRecords
             return svc;
         }
 
-        public IOrganizationService Connectwithcreds()
+        public IOrganizationService Connectwithcreds(string URL, string userName, string password)
         {
             ClientCredentials clntCredentials = new ClientCredentials();
-            clntCredentials.UserName.UserName = "";
-            clntCredentials.UserName.Password = "";
+            clntCredentials.UserName.UserName = userName;
+            clntCredentials.UserName.Password = password;
             ServicePointManager.ServerCertificateValidationCallback = delegate (object s, X509Certificate certificate, X509Chain chain, SslPolicyErrors sslPolicyErrors) { return true; };
             //Security Protocol as TLS12
             ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
-            OrganizationServiceProxy orgService = new OrganizationServiceProxy(new Uri("https://uam.api.crm.dynamics.com/XRMServices/2011/Organization.svc"), null, clntCredentials, null);
+            string url = string.Format("{0}/XRMServices/2011/Organization.svc", URL);
+            OrganizationServiceProxy orgService = new OrganizationServiceProxy(new Uri(url), null, clntCredentials, null);
             return (IOrganizationService)orgService;
 
         }
