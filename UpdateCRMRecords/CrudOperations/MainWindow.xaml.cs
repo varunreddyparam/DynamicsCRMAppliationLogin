@@ -27,7 +27,8 @@ namespace CrudOperations
 
         private void CRMLoginClick(object sender, RoutedEventArgs e)
         {
-
+            LoginControl loginControl = new LoginControl();
+            loginControl.Show();
         }
     }
 }

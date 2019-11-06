@@ -20,6 +20,8 @@ namespace CrudOperations
     /// </summary>
     public partial class LoginControl : Window
     {
+        private Service xrmService;
+        private ConnecttoCRM connecttoCRM = new ConnecttoCRM();
         public LoginControl()
         {
             InitializeComponent();
@@ -27,7 +29,33 @@ namespace CrudOperations
 
         private void Connect_Click(object sender, RoutedEventArgs e)
         {
-            Service xrmService = Service.GetService(url)
+            //varun@paramworkshop7.onmicrosoft.com
+            xrmService = GetService();
+            if (xrmService.OrganizationService != null)
+            {
+                lblMessage.Content = "Connection Established Successfully...";
+                lblMessage.Foreground = Brushes.Green;
+                using (var context = Context.Instance())
+                {
+                    context.Service = xrmService;
+                }
+            }
+            else
+            {
+                lblMessage.Content = "Failed to Established Connection!!!";
+                lblMessage.Foreground = Brushes.Red;
+            }
         }
+
+        private void Ok_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+        public Service GetService()
+        {
+            xrmService = connecttoCRM.connection(txturl.Text, txtUserName.Text, txtPassword.Text);
+            return xrmService;
+        }
+
     }
 }
