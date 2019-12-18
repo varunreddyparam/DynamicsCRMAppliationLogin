@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{4C4617AA-FD6B-48AA-B6F4-25D64571636E}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>UpdateCRMRecords</RootNamespace>
-    <AssemblyName>UpdateCRMRecords</AssemblyName>
+    <RootNamespace>DynamicsCRMConnection</RootNamespace>
+    <AssemblyName>DynamicsCRMConnection</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -133,7 +133,7 @@
   <ItemGroup>
     <Compile Include="Service.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ConnecttoCRM.cs" />
+    <Compile Include="IConnectCRM.cs" />
     <Compile Include="XrmExceptionHandler.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -2,7 +2,7 @@
 using System.Diagnostics;
 using System.ServiceModel.Dispatcher;
 
-namespace UpdateCRMRecords
+namespace DynamicsCRMConnection
 {
     public class XrmExceptionHandler:ExceptionHandler
     {

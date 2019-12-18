@@ -19,7 +19,7 @@ using RestSharp;
 using Newtonsoft.Json.Linq;
 using System.Web;
 
-namespace UpdateCRMRecords
+namespace DynamicsCRMConnection
 {
     public class Service
     {
